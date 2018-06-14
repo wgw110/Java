@@ -1,14 +1,20 @@
-package com.wangguowei.demo;
+package com.wangguowei.properties;
+
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.Base64;
+import java.util.Date;
+import java.util.List;
+import java.util.Stack;
 
 public class Test {
-	private boolean hasNext;
-
-	public boolean isHasNext() {
-		return hasNext;
+	public static void main(String[] args) throws UnsupportedEncodingException {
+		String time="";
+		long time2=0;
+		try {
+			time2=Long.parseLong(time);
+		}catch(Exception e) {
+		}
+		System.out.println(time2);
 	}
-
-	public void setHasNext(boolean hasNext) {
-		this.hasNext = hasNext;
-	}
-
 }
